@@ -39,16 +39,18 @@ The model achieved **100% test accuracy** on the available test set.
 The classification report showed precision, recall, and F1-score of 1.00 for all four classes. These results apply to this dataset and test split; further testing on new, independent emails would help assess generalization.
 
 ## Project Structure
+
 ```text
 email-intent-classification-bilstm/
 ├── Dataset/
-│   └── README.md
+│   ├── README.md
+│   └── cleaned_email_intent.csv
 ├── email_intent.csv
-├── cleaned_email_intent.csv
 ├── email_intent_bilstm.keras
 ├── main.py
 └── README.md
 ```
+
 
 ## How to Run
 1. Install Python 3.12.
